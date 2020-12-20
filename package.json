@@ -1,0 +1,32 @@
+{
+  "name": "discord-subwoofer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-kratz/discord-subwoofer.git"
+  },
+  "keywords": [],
+  "author": "Robert Kratz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert-kratz/discord-subwoofer/issues"
+  },
+  "homepage": "https://github.com/robert-kratz/discord-subwoofer#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cookie-parser": "^1.4.5",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "uniqid": "^5.2.0"
+  }
+}
